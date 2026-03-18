@@ -1,0 +1,140 @@
+{
+  "date": "2026-03-13",
+  "date_display": "2026年3月13日 · 星期五",
+  "stats": [
+    {
+      "num": 13,
+      "label": "新闻条目"
+    },
+    {
+      "num": 5,
+      "label": "话题板块"
+    }
+  ],
+  "sections": [
+    {
+      "accent": "#ef5350",
+      "bg": "#fce4ec",
+      "color": "#c62828",
+      "tag": "重磅动态",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#fce4ec",
+          "text": "Andrej Karpathy 发布 autoresearch 开源项目 — 这是一个最小化的自研 LLM 训练框架，支持智能体（Agent）自主迭代训练代码并优化超参数",
+          "url": "https://x.com/karpathy/status/2030371219518931079"
+        },
+        {
+          "icon": "⚡",
+          "icon_bg": "#fce4ec",
+          "text": "Vite 8.0 正式发布 — 前端构建工具迎来重大版本更新",
+          "url": "https://vite.dev/blog/announcing-vite8"
+        },
+        {
+          "icon": "🚀",
+          "icon_bg": "#fce4ec",
+          "text": "xAI Grok Imagine 功能更新 — 支持使用用户照片和参考图进行风格迁移（如穿上盔甲），并能生成音乐视频",
+          "url": "https://x.com/elonmusk/status/2032346463012077996"
+        }
+      ]
+    },
+    {
+      "accent": "#4caf50",
+      "bg": "#e8f5e9",
+      "color": "#2e7d32",
+      "tag": "行业资讯",
+      "items": [
+        {
+          "icon": "💡",
+          "icon_bg": "#e8f5e9",
+          "text": "预言 IDE 的时代并未结束，但单元已从“文件”变为“智能体”，人类将通过语音或移动端在更高层级进行编程控制",
+          "url": "https://x.com/karpathy/status/2031767720933634100"
+        },
+        {
+          "icon": "🧠",
+          "icon_bg": "#e8f5e9",
+          "text": "实验证实智能体自主优化 nanochat 训练流，在 700 次迭代后将 GPT-2 训练效率提升了 11%，且优化策略可迁移至更大模型",
+          "url": "https://x.com/karpathy/status/2031135152349524100"
+        },
+        {
+          "icon": "📊",
+          "icon_bg": "#e8f5e9",
+          "text": "认为 autoresearch 的下一阶段是实现智能体间的大规模异步协作，模拟整个研究社区而非单个学生",
+          "url": "https://x.com/karpathy/status/2030705271627284816"
+        }
+      ]
+    },
+    {
+      "accent": "#ff9800",
+      "bg": "#fff3e0",
+      "color": "#e65100",
+      "tag": "技术前沿",
+      "items": [
+        {
+          "icon": "🔗",
+          "icon_bg": "#fff3e0",
+          "text": "推广 Grok Imagine 新功能，支持使用个人照片作为参考图生成盔甲或音乐视频",
+          "url": "https://x.com/elonmusk/status/2032348684571357238"
+        },
+        {
+          "icon": "🏢",
+          "icon_bg": "#fff3e0",
+          "text": "确认 X Premium+ 订阅包含 SuperGrok 权限",
+          "url": "https://x.com/elonmusk/status/2032346889920930073"
+        },
+        {
+          "icon": "📈",
+          "icon_bg": "#fff3e0",
+          "text": "DuckDB 演示在最便宜的 MacBook 上处理大数据，展现其卓越的分析性能",
+          "url": "https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook"
+        }
+      ]
+    },
+    {
+      "accent": "#ab47bc",
+      "bg": "#f3e5f5",
+      "color": "#6a1b9a",
+      "tag": "生态动态",
+      "items": [
+        {
+          "icon": "🔧",
+          "icon_bg": "#f3e5f5",
+          "text": "斯坦福研究发现通过增强肠道-大脑通信可以逆转衰老小鼠的认知下降",
+          "url": "https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html"
+        },
+        {
+          "icon": "💻",
+          "icon_bg": "#f3e5f5",
+          "text": "探讨为什么 ATM 机没有消灭银行柜员，但 iPhone 却做到了",
+          "url": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller"
+        },
+        {
+          "icon": "🌐",
+          "icon_bg": "#f3e5f5",
+          "text": "Malus 推出“净室即服务”（Clean Room as a Service），针对隐私敏感的计算需求",
+          "url": "https://malus.sh"
+        }
+      ]
+    },
+    {
+      "accent": "#5c6bc0",
+      "bg": "#e8eaf6",
+      "color": "#283593",
+      "tag": "深度解读",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#e8eaf6",
+          "text": "💡 智能体通过观察验证损失（Validation Loss）并自主尝试约 700 种代码与参数调整，发现了人类专家（Karpathy 本人）未曾注意到的权重衰减和初始化问题。",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "ClawFeed",
+    "X / Twitter",
+    "其他网站"
+  ],
+  "updated_at": "自动生成"
+}

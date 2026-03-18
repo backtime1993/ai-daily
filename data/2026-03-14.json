@@ -1,0 +1,141 @@
+{
+  "date": "2026-03-14",
+  "date_display": "2026年3月14日 · 星期六",
+  "stats": [
+    {
+      "num": 13,
+      "label": "新闻条目"
+    },
+    {
+      "num": 5,
+      "label": "话题板块"
+    }
+  ],
+  "sections": [
+    {
+      "accent": "#ef5350",
+      "bg": "#fce4ec",
+      "color": "#c62828",
+      "tag": "重磅动态",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#fce4ec",
+          "text": "Claude 4.6 全面开放 1M 上下文 — Opus 4.6 和 Sonnet 4.6 的百万级 Token 上下文窗口现已对所有用户开放",
+          "url": "https://claude.com/blog/1m-context-ga"
+        },
+        {
+          "icon": "⚡",
+          "icon_bg": "#fce4ec",
+          "text": "Karpathy 发布 autoresearch 最小化复现项目 — 一个仅 630 行代码的单文件 repo，展示 AI Agent 如何自主迭代优化 LLM 训练代码",
+          "url": ""
+        },
+        {
+          "icon": "🚀",
+          "icon_bg": "#fce4ec",
+          "text": "xAI Founders 变动与融资传闻 — Elon Musk 确认 xAI 正在飞速发展，但有报道指其 coding 团队核心成员变动且融资压力增加",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "accent": "#2196f3",
+      "bg": "#e3f2fd",
+      "color": "#1565c0",
+      "tag": "行业资讯",
+      "items": [
+        {
+          "icon": "💡",
+          "icon_bg": "#e3f2fd",
+          "text": "\"Can I run AI locally?\" 工具发布，帮助用户快速评估硬件是否支持本地运行特定 AI 模型",
+          "url": "https://www.canirun.ai/"
+        },
+        {
+          "icon": "🧠",
+          "icon_bg": "#e3f2fd",
+          "text": "详细分享了 Agent 在 2 天内自主优化 nanochat 的过程，通过 700 次试验将 GPT-2 训练时间从 2.02 小时降至 1.8 小时",
+          "url": "https://x.com/karpathy/status/2031135152349524125"
+        },
+        {
+          "icon": "📊",
+          "icon_bg": "#e3f2fd",
+          "text": "全球氦气短缺：卡塔尔氦气停产可能在两周内冲击全球芯片供应链",
+          "url": "https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock"
+        }
+      ]
+    },
+    {
+      "accent": "#4caf50",
+      "bg": "#e8f5e9",
+      "color": "#2e7d32",
+      "tag": "技术前沿",
+      "items": [
+        {
+          "icon": "🔗",
+          "icon_bg": "#e8f5e9",
+          "text": "智能“棕色停电”：Karpathy 思考 AI 基础设施故障（如 OAuth 故障）导致全球 IQ 暂时下降的可能性",
+          "url": "https://x.com/karpathy/status/2031792523187040643"
+        },
+        {
+          "icon": "🏢",
+          "icon_bg": "#e8f5e9",
+          "text": "Grok 视频更新：转发展示 Grok 动画多张图片的能力，以及 Grokipedia 搜索栏的新增趋势文章功能",
+          "url": "https://x.com/elonmusk/status/2032711910760870362"
+        },
+        {
+          "icon": "📈",
+          "icon_bg": "#e8f5e9",
+          "text": "xAI 人事动动荡：埃隆·马斯克据称因编程工具进展不顺解雇更多 xAI 创始成员",
+          "url": "https://www.ft.com/content/e5fbc6c2-d5a6-4b97-a105-6a96ea849de5"
+        }
+      ]
+    },
+    {
+      "accent": "#ff9800",
+      "bg": "#fff3e0",
+      "color": "#e65100",
+      "tag": "生态动态",
+      "items": [
+        {
+          "icon": "🔧",
+          "icon_bg": "#fff3e0",
+          "text": "能源动态：Tesla Powerwall 3 将于今年登陆日本",
+          "url": "https://x.com/elonmusk/status/2032711785162461625"
+        },
+        {
+          "icon": "💻",
+          "icon_bg": "#fff3e0",
+          "text": "手机即电脑：探讨现代手机作为全功能计算终端的潜力",
+          "url": "https://medhir.com/blog/your-phone-is-an-entire-computer"
+        },
+        {
+          "icon": "🌐",
+          "icon_bg": "#fff3e0",
+          "text": "TUI Studio：可视化终端 UI 设计工具，方便开发者构建复杂的 TUI 界面",
+          "url": "https://tui.studio/"
+        }
+      ]
+    },
+    {
+      "accent": "#5c6bc0",
+      "bg": "#e8eaf6",
+      "color": "#283593",
+      "tag": "深度解读",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#e8eaf6",
+          "text": "Andrej Karpathy 展示了一个极其精简但充满启发性的工作流：人类迭代 Prompt (.md)，AI 迭代训练代码 (.py)。这种“Meta-Setup”让开发者从直接调参转变为优化 Agent 的研究链路。核心洞察是，任何可高效评估的指标（或有代理指标）都可以通过 Agent 集群进行自动研究。这标志着 AI 开发从“手工作坊”向“自动化实验室”的跨越。一句话总结：AI 不再只是在写代码，而是在自主进行科学实验和工程优化。",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "ClawFeed",
+    "GitHub",
+    "X / Twitter",
+    "其他网站"
+  ],
+  "updated_at": "自动生成"
+}

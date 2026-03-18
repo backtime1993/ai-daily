@@ -1,0 +1,127 @@
+{
+  "date": "2026-03-18",
+  "date_display": "2026年3月18日 · 星期三",
+  "stats": [
+    {
+      "num": 12,
+      "label": "新闻条目"
+    },
+    {
+      "num": 4,
+      "label": "话题板块"
+    }
+  ],
+  "sections": [
+    {
+      "accent": "#ef5350",
+      "bg": "#fce4ec",
+      "color": "#c62828",
+      "tag": "重磅动态",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#fce4ec",
+          "text": "HackerNews] A Decade of Slug — Terathon 博客回顾了 Slug 字体渲染引擎十年来的发展历程，深入探讨了其在矢量图形和字体渲染技术上的演进与技术细节",
+          "url": "https://terathon.com/blog/decade-slug.html"
+        },
+        {
+          "icon": "⚡",
+          "icon_bg": "#fce4ec",
+          "text": "微软 Xbox One 宣告全线被破 — 2013 年发布的 Xbox One 最终被 Bliss 通过电压注入攻击（Voltage Glitching）完全攻破，允许在所有层级运行未签名代码",
+          "url": ""
+        },
+        {
+          "icon": "🚀",
+          "icon_bg": "#fce4ec",
+          "text": "FFmpeg 8.1 正式发布 — 开源多媒体处理框架迎来重大版本更新",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "accent": "#2196f3",
+      "bg": "#e3f2fd",
+      "color": "#1565c0",
+      "tag": "行业资讯",
+      "items": [
+        {
+          "icon": "💡",
+          "icon_bg": "#e3f2fd",
+          "text": "转发关于 SpaceX 遗产的讨论：其最大的贡献将是从 Elon Musk 体系中诞生的数千家新公司",
+          "url": "https://x.com/elonmusk/status/2033950816684642545"
+        },
+        {
+          "icon": "🧠",
+          "icon_bg": "#e3f2fd",
+          "text": "转发 Starlink 手机直连卫星服务在菲律宾测试成功的消息，手机可直接连接卫星",
+          "url": "https://x.com/elonmusk/status/2033956889869095395"
+        },
+        {
+          "icon": "📊",
+          "icon_bg": "#e3f2fd",
+          "text": "Xbox One 被 Bliss 攻破的技术细节讨论，涉及硬件底层的安全漏洞",
+          "url": "https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level"
+        }
+      ]
+    },
+    {
+      "accent": "#4caf50",
+      "bg": "#e8f5e9",
+      "color": "#2e7d32",
+      "tag": "技术前沿",
+      "items": [
+        {
+          "icon": "🔗",
+          "icon_bg": "#e8f5e9",
+          "text": "回应关于 OpenAI 的争议，强调其最初是作为开源非营利组织成立的",
+          "url": "https://x.com/elonmusk/status/2033964049927634947"
+        },
+        {
+          "icon": "🏢",
+          "icon_bg": "#e8f5e9",
+          "text": "转发并支持白宫关于 DOGE (政府效率部) 的相关倡议",
+          "url": "https://x.com/elonmusk/status/2033942816704106987"
+        },
+        {
+          "icon": "📈",
+          "icon_bg": "#e8f5e9",
+          "text": "确认在 X 上进行某些操作非常简单易行",
+          "url": "https://x.com/elonmusk/status/2033942904402808980"
+        }
+      ]
+    },
+    {
+      "accent": "#ff9800",
+      "bg": "#fff3e0",
+      "color": "#e65100",
+      "tag": "生态动态",
+      "items": [
+        {
+          "icon": "🔧",
+          "icon_bg": "#fff3e0",
+          "text": "呼吁用户分享提示词，帮助新用户利用 Grok 创作精美音视频",
+          "url": "https://x.com/elonmusk/status/2033886296985444765"
+        },
+        {
+          "icon": "💻",
+          "icon_bg": "#fff3e0",
+          "text": "展示 Grok Imagine 强大的多风格生成能力",
+          "url": "https://x.com/elonmusk/status/2033884950056079524"
+        },
+        {
+          "icon": "🌐",
+          "icon_bg": "#fff3e0",
+          "text": "庆祝圣帕特里克节，分享节日主题 AI 生成内容",
+          "url": "https://x.com/elonmusk/status/2033887129231900738"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "ClawFeed",
+    "Reuters",
+    "X / Twitter",
+    "其他网站"
+  ],
+  "updated_at": "07:01"
+}

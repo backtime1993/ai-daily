@@ -1,0 +1,140 @@
+{
+  "date": "2026-03-12",
+  "date_display": "2026年3月12日 · 星期四",
+  "stats": [
+    {
+      "num": 13,
+      "label": "新闻条目"
+    },
+    {
+      "num": 5,
+      "label": "话题板块"
+    }
+  ],
+  "sections": [
+    {
+      "accent": "#ef5350",
+      "bg": "#fce4ec",
+      "color": "#c62828",
+      "tag": "重磅动态",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#fce4ec",
+          "text": "xAI-Tesla 联合项目 MACROHARD 公布 — 马斯克揭秘 Digital Optimus AI（系统1）与 Grok（系统2）的协同机制，旨在实时模拟整家公司的运作，运行于低成本 Tesla AI4 硬件。",
+          "url": "https://x.com/elonmusk/status/2031751255060885911"
+        },
+        {
+          "icon": "⚡",
+          "icon_bg": "#fce4ec",
+          "text": "Andrej Karpathy 发布自动研究（Autoresearch）项目 — 这是一个最小化代码库（约630行），展示了 AI Agent 如何自主迭代训练代码并提升模型性能，已在 nanochat 项目中实现 11% 的训练效率提升。",
+          "url": "https://x.com/karpathy/status/2030371219518931079"
+        },
+        {
+          "icon": "🚀",
+          "icon_bg": "#fce4ec",
+          "text": "BitNet：微软发布 100B 参数 1-Bit 模型 — 针对本地 CPU 优化，标志着超大规模模型在边缘侧运行的新突破。",
+          "url": "https://github.com/microsoft/BitNet"
+        }
+      ]
+    },
+    {
+      "accent": "#4caf50",
+      "bg": "#e8f5e9",
+      "color": "#2e7d32",
+      "tag": "行业资讯",
+      "items": [
+        {
+          "icon": "💡",
+          "icon_bg": "#e8f5e9",
+          "text": "探讨 IDE 的未来：人类将向更高层级的编程移动，基本单位将从文件变为 Agent。",
+          "url": "https://x.com/karpathy/status/2031767720933634100"
+        },
+        {
+          "icon": "🧠",
+          "icon_bg": "#e8f5e9",
+          "text": "提出“异步大规模协作研究”设想：目标是模拟一个研究社区而非单个学生，让 Agents 协作处理数千个提交。",
+          "url": "https://x.com/karpathy/status/2030705271627284816"
+        },
+        {
+          "icon": "📊",
+          "icon_bg": "#e8f5e9",
+          "text": "Grok Imagine 1.0 现支持生成 30 秒视频。",
+          "url": "https://x.com/elonmusk/status/2031742857007272243"
+        }
+      ]
+    },
+    {
+      "accent": "#ff9800",
+      "bg": "#fff3e0",
+      "color": "#e65100",
+      "tag": "技术前沿",
+      "items": [
+        {
+          "icon": "🔗",
+          "icon_bg": "#fff3e0",
+          "text": "宇树科技发布 Unitree As2：支持 15kg 载荷、13km 航程的工业级 companion 机器人。",
+          "url": "https://x.com/UnitreeRobotics/status/2026221314676228580"
+        },
+        {
+          "icon": "🏢",
+          "icon_bg": "#fff3e0",
+          "text": "HackerNews - JavaScript 时间处理方案 Temporal 历经九年的标准化之路。",
+          "url": "https://bloomberg.github.io/js-blog/post/temporal/"
+        },
+        {
+          "icon": "📈",
+          "icon_bg": "#fff3e0",
+          "text": "HackerNews - WebAssembly 正在成为 Web 上的第一类公民语言。",
+          "url": "https://hacks.mozilla.org/2026/02/making-webassembly-a-first-class-language-on-the-web/"
+        }
+      ]
+    },
+    {
+      "accent": "#ab47bc",
+      "bg": "#f3e5f5",
+      "color": "#6a1b9a",
+      "tag": "生态动态",
+      "items": [
+        {
+          "icon": "🔧",
+          "icon_bg": "#f3e5f5",
+          "text": "HackerNews - 揭秘麦肯锡 AI 平台如何被黑客攻击的案例分析。",
+          "url": "https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform"
+        },
+        {
+          "icon": "💻",
+          "icon_bg": "#f3e5f5",
+          "text": "HackerNews - 科学界的大规模造假实体调查报告（2025）。",
+          "url": "https://doi.org/10.1073/pnas.2420092122"
+        },
+        {
+          "icon": "🌐",
+          "icon_bg": "#f3e5f5",
+          "text": "SiteSpy - 新工具推介：监控网页变化并将其暴露为 RSS 订阅。",
+          "url": "https://sitespy.app"
+        }
+      ]
+    },
+    {
+      "accent": "#5c6bc0",
+      "bg": "#e8eaf6",
+      "color": "#283593",
+      "tag": "深度解读",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#e8eaf6",
+          "text": "💡 当智能和韧性不再是瓶颈时，现有的 Git 分支与 PR 协作抽象将面临压力，我们需要支持成千上万 commit 并行演进的新型科研管理架构。",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "ClawFeed",
+    "X / Twitter",
+    "Hacker News"
+  ],
+  "updated_at": "自动生成"
+}

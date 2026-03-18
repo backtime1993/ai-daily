@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 日报 - 2026年3月18日</title>
+<title>AI 日报</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -66,107 +66,174 @@
     padding: 6px 14px; border-radius: 8px; font-size: 13px; font-weight: 600;
     margin: 4px;
   }
+  .nav-bar {
+    display: flex; align-items: center; justify-content: center; gap: 16px;
+    padding: 12px 0;
+  }
+  .nav-btn {
+    background: #fff; border: none; border-radius: 12px;
+    width: 40px; height: 40px; font-size: 18px; cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    display: flex; align-items: center; justify-content: center;
+    color: #007aff; transition: opacity .2s;
+  }
+  .nav-btn:disabled { opacity: .3; cursor: default; }
+  .nav-btn:active:not(:disabled) { opacity: .6; }
+  .nav-date-label { font-size: 13px; color: #8e8e93; letter-spacing: 0.5px; min-width: 100px; text-align: center; }
+  .loading { text-align: center; padding: 80px 20px; color: #8e8e93; font-size: 14px; }
+  .error { text-align: center; padding: 80px 20px; color: #c62828; font-size: 14px; }
+  .archive-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 8px; margin-top: 12px;
+  }
+  .archive-item {
+    background: #fff; border-radius: 10px; padding: 10px; text-align: center;
+    font-size: 13px; color: #007aff; cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04); transition: background .2s;
+    text-decoration: none; display: block;
+  }
+  .archive-item:hover { background: #e8f0fe; }
+  .archive-item.active { background: #007aff; color: #fff; }
+  a { color: inherit; text-decoration: none; }
 </style>
 </head>
 <body>
-<div class="container">
-  <div class="card card-cover">
-    <h1>AI 日报</h1>
-    <div class="divider"></div>
-    <div class="date">2026年3月18日 · 星期三</div>
-    <div class="subtitle">今日 AI 圈大事一览</div>
-    <div class="stats">
-      <div class="stat-item">
-        <span class="stat-num">12</span>
-        <span class="stat-label">新闻条目</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-num">4</span>
-        <span class="stat-label">话题板块</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="card card-content">
-    <div class="left-accent" style="background:#ef5350"></div>
-    <div class="tag" style="background:#fce4ec;color:#c62828">重磅动态</div>
-    
-    <div class="bullet">
-      <div class="icon" style="background:#fce4ec">🔥</div>
-      <div>HackerNews] A Decade of Slug — Terathon 博客回顾了 Slug 字体渲染引擎十年来的发展历程，深入探讨了其在矢量图形和字体渲染技术上的演进与技术细节 <a href="https://terathon.com/blog/decade-slug.html)" target="_blank" style="color:#c62828;text-decoration:none;font-size:12px">→ 原文</a></div>
-    </div>
-    <div class="bullet">
-      <div class="icon" style="background:#fce4ec">⚡</div>
-      <div>微软 Xbox One 宣告全线被破 — 2013 年发布的 Xbox One 最终被 Bliss 通过电压注入攻击（Voltage Glitching）完全攻破，允许在所有层级运行未签名代码</div>
-    </div>
-    <div class="bullet">
-      <div class="icon" style="background:#fce4ec">🚀</div>
-      <div>FFmpeg 8.1 正式发布 — 开源多媒体处理框架迎来重大版本更新</div>
-    </div>
-  </div>
-
-  <div class="card card-content">
-    <div class="left-accent" style="background:#2196f3"></div>
-    <div class="tag" style="background:#e3f2fd;color:#1565c0">行业资讯</div>
-    
-    <div class="bullet">
-      <div class="icon" style="background:#e3f2fd">💡</div>
-      <div>转发关于 SpaceX 遗产的讨论：其最大的贡献将是从 Elon Musk 体系中诞生的数千家新公司 <a href="https://x.com/elonmusk/status/2033950816684642545" target="_blank" style="color:#1565c0;text-decoration:none;font-size:12px">→ 原文</a></div>
-    </div>
-    <div class="bullet">
-      <div class="icon" style="background:#e3f2fd">🧠</div>
-      <div>转发 Starlink 手机直连卫星服务在菲律宾测试成功的消息，手机可直接连接卫星 <a href="https://x.com/elonmusk/status/2033956889869095395" target="_blank" style="color:#1565c0;text-decoration:none;font-size:12px">→ 原文</a></div>
-    </div>
-    <div class="bullet">
-      <div class="icon" style="background:#e3f2fd">📊</div>
-      <div>Xbox One 被 Bliss 攻破的技术细节讨论，涉及硬件底层的安全漏洞 <a href="https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level" target="_blank" style="color:#1565c0;text-decoration:none;font-size:12px">→ 原文</a></div>
-    </div>
-  </div>
-
-  <div class="card card-content">
-    <div class="left-accent" style="background:#4caf50"></div>
-    <div class="tag" style="background:#e8f5e9;color:#2e7d32">技术前沿</div>
-    
-    <div class="bullet">
-      <div class="icon" style="background:#e8f5e9">🔗</div>
-      <div>回应关于 OpenAI 的争议，强调其最初是作为开源非营利组织成立的 <a href="https://x.com/elonmusk/status/2033964049927634947" target="_blank" style="color:#2e7d32;text-decoration:none;font-size:12px">→ 原文</a></div>
-    </div>
-    <div class="bullet">
-      <div class="icon" style="background:#e8f5e9">🏢</div>
-      <div>转发并支持白宫关于 DOGE (政府效率部) 的相关倡议 <a href="https://x.com/elonmusk/status/2033942816704106987" target="_blank" style="color:#2e7d32;text-decoration:none;font-size:12px">→ 原文</a></div>
-    </div>
-    <div class="bullet">
-      <div class="icon" style="background:#e8f5e9">📈</div>
-      <div>确认在 X 上进行某些操作非常简单易行 <a href="https://x.com/elonmusk/status/2033942904402808980" target="_blank" style="color:#2e7d32;text-decoration:none;font-size:12px">→ 原文</a></div>
-    </div>
-  </div>
-
-  <div class="card card-content">
-    <div class="left-accent" style="background:#ff9800"></div>
-    <div class="tag" style="background:#fff3e0;color:#e65100">生态动态</div>
-    
-    <div class="bullet">
-      <div class="icon" style="background:#fff3e0">🔧</div>
-      <div>呼吁用户分享提示词，帮助新用户利用 Grok 创作精美音视频 <a href="https://x.com/elonmusk/status/2033886296985444765" target="_blank" style="color:#e65100;text-decoration:none;font-size:12px">→ 原文</a></div>
-    </div>
-    <div class="bullet">
-      <div class="icon" style="background:#fff3e0">💻</div>
-      <div>展示 Grok Imagine 强大的多风格生成能力 <a href="https://x.com/elonmusk/status/2033884950056079524" target="_blank" style="color:#e65100;text-decoration:none;font-size:12px">→ 原文</a></div>
-    </div>
-    <div class="bullet">
-      <div class="icon" style="background:#fff3e0">🌐</div>
-      <div>庆祝圣帕特里克节，分享节日主题 AI 生成内容 <a href="https://x.com/elonmusk/status/2033887129231900738" target="_blank" style="color:#e65100;text-decoration:none;font-size:12px">→ 原文</a></div>
-    </div>
-  </div>
-  <div class="card card-summary">
-    <div style="width:48px;height:4px;border-radius:2px;background:linear-gradient(90deg,#007aff,#5856d6);margin:0 auto 16px"></div>
-    <div style="font-size:13px;color:#8e8e93;margin-bottom:8px">数据来源</div>
-    <div>
-      <span class="source-tag">ClawFeed</span><span class="source-tag">Reuters</span><span class="source-tag">X / Twitter</span><span class="source-tag">其他网站</span>
-    </div>
-    <div class="footer">AI 日报 · 2026年3月18日 · 07:01 更新</div>
-  </div>
+<div class="container" id="app">
+  <div class="loading">加载中...</div>
 </div>
-<script id="ai-daily-items" type="application/json">[{"title":"HackerNews] A Decade of Slug — Terathon 博客回顾了 Slug 字体渲染引擎十年来的发展历程，深入探讨了其在矢量图形和字体渲染技术上的演进与技术细节","title_key":"hackernewsadecadeofslugterathon博客回顾了slug字体渲染引擎十年来的发展历程深入探讨了其在矢量图形和字体渲染技术上的演进与技术细","url":"https://terathon.com/blog/decade-slug.html)","url_key":"https://terathon.com/blog/decade-slug.html","priority":"hot","section":"hot","mentions":2,"digest_created_at":"2026-03-18T07:01:27+08:00"},{"title":"微软 Xbox One 宣告全线被破 — 2013 年发布的 Xbox One 最终被 Bliss 通过电压注入攻击（Voltage Glitching）完全攻破，允许在所有层级运行未签名代码","title_key":"微软xboxone宣告全线被破2013年发布的xboxone最终被bliss通过电压注入攻击voltageglitching完全攻破允许在所有层级运行未签名代码","url":"","url_key":"","priority":"hot","section":"hot","mentions":1,"digest_created_at":"2026-03-18T03:01:30+08:00"},{"title":"FFmpeg 8.1 正式发布 — 开源多媒体处理框架迎来重大版本更新","title_key":"ffmpeg81正式发布开源多媒体处理框架迎来重大版本更新","url":"","url_key":"","priority":"hot","section":"hot","mentions":1,"digest_created_at":"2026-03-18T03:01:30+08:00"},{"title":"转发关于 SpaceX 遗产的讨论：其最大的贡献将是从 Elon Musk 体系中诞生的数千家新公司","title_key":"转发关于spacex遗产的讨论其最大的贡献将是从elonmusk体系中诞生的数千家新公司","url":"https://x.com/elonmusk/status/2033950816684642545","url_key":"https://x.com/elonmusk/status/2033950816684642545","priority":"normal","section":"news","mentions":1,"digest_created_at":"2026-03-18T03:01:30+08:00"},{"title":"转发 Starlink 手机直连卫星服务在菲律宾测试成功的消息，手机可直接连接卫星","title_key":"转发starlink手机直连卫星服务在菲律宾测试成功的消息手机可直接连接卫星","url":"https://x.com/elonmusk/status/2033956889869095395","url_key":"https://x.com/elonmusk/status/2033956889869095395","priority":"normal","section":"news","mentions":1,"digest_created_at":"2026-03-18T03:01:30+08:00"},{"title":"Xbox One 被 Bliss 攻破的技术细节讨论，涉及硬件底层的安全漏洞","title_key":"xboxone被bliss攻破的技术细节讨论涉及硬件底层的安全漏洞","url":"https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level","url_key":"https://tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level","priority":"normal","section":"news","mentions":1,"digest_created_at":"2026-03-18T03:01:30+08:00"},{"title":"回应关于 OpenAI 的争议，强调其最初是作为开源非营利组织成立的","title_key":"回应关于openai的争议强调其最初是作为开源非营利组织成立的","url":"https://x.com/elonmusk/status/2033964049927634947","url_key":"https://x.com/elonmusk/status/2033964049927634947","priority":"normal","section":"news","mentions":1,"digest_created_at":"2026-03-18T03:01:30+08:00"},{"title":"转发并支持白宫关于 DOGE (政府效率部) 的相关倡议","title_key":"转发并支持白宫关于doge政府效率部的相关倡议","url":"https://x.com/elonmusk/status/2033942816704106987","url_key":"https://x.com/elonmusk/status/2033942816704106987","priority":"normal","section":"news","mentions":1,"digest_created_at":"2026-03-18T03:01:30+08:00"},{"title":"确认在 X 上进行某些操作非常简单易行","title_key":"确认在x上进行某些操作非常简单易行","url":"https://x.com/elonmusk/status/2033942904402808980","url_key":"https://x.com/elonmusk/status/2033942904402808980","priority":"normal","section":"news","mentions":1,"digest_created_at":"2026-03-18T03:01:30+08:00"},{"title":"呼吁用户分享提示词，帮助新用户利用 Grok 创作精美音视频","title_key":"呼吁用户分享提示词帮助新用户利用grok创作精美音视频","url":"https://x.com/elonmusk/status/2033886296985444765","url_key":"https://x.com/elonmusk/status/2033886296985444765","priority":"normal","section":"news","mentions":1,"digest_created_at":"2026-03-17T23:01:50+08:00"},{"title":"展示 Grok Imagine 强大的多风格生成能力","title_key":"展示grokimagine强大的多风格生成能力","url":"https://x.com/elonmusk/status/2033884950056079524","url_key":"https://x.com/elonmusk/status/2033884950056079524","priority":"normal","section":"news","mentions":1,"digest_created_at":"2026-03-17T23:01:50+08:00"},{"title":"庆祝圣帕特里克节，分享节日主题 AI 生成内容","title_key":"庆祝圣帕特里克节分享节日主题ai生成内容","url":"https://x.com/elonmusk/status/2033887129231900738","url_key":"https://x.com/elonmusk/status/2033887129231900738","priority":"normal","section":"news","mentions":1,"digest_created_at":"2026-03-17T23:01:50+08:00"}]</script>
+
+<script>
+const APP = document.getElementById('app');
+const BASE = './data/';
+let manifest = [];
+let currentIdx = -1;
+
+async function init() {
+  try {
+    const res = await fetch(BASE + 'manifest.json');
+    manifest = await res.json();
+  } catch {
+    APP.innerHTML = '<div class="error">无法加载日报索引</div>';
+    return;
+  }
+  const hash = location.hash.replace('#', '');
+  const idx = hash ? manifest.indexOf(hash) : -1;
+  loadDate(idx >= 0 ? idx : manifest.length - 1);
+}
+
+async function loadDate(idx) {
+  if (idx < 0 || idx >= manifest.length) return;
+  currentIdx = idx;
+  location.hash = manifest[idx];
+  APP.innerHTML = '<div class="loading">加载中...</div>';
+  document.title = 'AI 日报 - ' + manifest[idx];
+
+  try {
+    const res = await fetch(BASE + manifest[idx] + '.json');
+    const data = await res.json();
+    render(data);
+  } catch {
+    APP.innerHTML = '<div class="error">无法加载 ' + manifest[idx] + ' 的日报数据</div>';
+  }
+}
+
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+function render(data) {
+  let h = '';
+
+  // Nav
+  h += '<div class="nav-bar">';
+  h += '<button class="nav-btn" id="prev"' + (currentIdx <= 0 ? ' disabled' : '') + '>&larr;</button>';
+  h += '<span class="nav-date-label">' + esc(manifest[currentIdx]) + '</span>';
+  h += '<button class="nav-btn" id="next"' + (currentIdx >= manifest.length - 1 ? ' disabled' : '') + '>&rarr;</button>';
+  h += '</div>';
+
+  // Cover
+  h += '<div class="card card-cover">';
+  h += '<h1>AI 日报</h1><div class="divider"></div>';
+  h += '<div class="date">' + esc(data.date_display) + '</div>';
+  h += '<div class="subtitle">今日 AI 圈大事一览</div>';
+  h += '<div class="stats">';
+  for (const s of data.stats) {
+    h += '<div class="stat-item"><span class="stat-num">' + s.num + '</span><span class="stat-label">' + esc(s.label) + '</span></div>';
+  }
+  h += '</div></div>';
+
+  // Sections
+  for (const sec of data.sections) {
+    h += '<div class="card card-content">';
+    h += '<div class="left-accent" style="background:' + esc(sec.accent) + '"></div>';
+    h += '<div class="tag" style="background:' + esc(sec.bg) + ';color:' + esc(sec.color) + '">' + esc(sec.tag) + '</div>';
+    for (const item of sec.items) {
+      h += '<div class="bullet">';
+      h += '<div class="icon" style="background:' + esc(item.icon_bg) + '">' + item.icon + '</div>';
+      h += '<div>' + esc(item.text);
+      if (item.url) {
+        h += ' <a href="' + esc(item.url) + '" target="_blank" rel="noopener" style="color:' + esc(sec.color) + ';text-decoration:none;font-size:12px">&rarr; 原文</a>';
+      }
+      h += '</div></div>';
+    }
+    h += '</div>';
+  }
+
+  // Footer
+  h += '<div class="card card-summary">';
+  h += '<div style="width:48px;height:4px;border-radius:2px;background:linear-gradient(90deg,#007aff,#5856d6);margin:0 auto 16px"></div>';
+  h += '<div style="font-size:13px;color:#8e8e93;margin-bottom:8px">数据来源</div><div>';
+  for (const src of (data.sources || [])) {
+    h += '<span class="source-tag">' + esc(src) + '</span>';
+  }
+  h += '</div>';
+  const dateText = (data.date_display || '').split(' \u00b7')[0] || data.date;
+  h += '<div class="footer">AI 日报 \u00b7 ' + esc(dateText) + ' \u00b7 ' + esc(data.updated_at || '') + ' 更新</div>';
+  h += '</div>';
+
+  // Archive
+  h += '<div class="card" style="padding:20px">';
+  h += '<div style="font-size:13px;color:#8e8e93;margin-bottom:8px;text-align:center">历史归档</div>';
+  h += '<div class="archive-grid">';
+  for (let i = manifest.length - 1; i >= 0; i--) {
+    const cls = i === currentIdx ? ' active' : '';
+    h += '<a class="archive-item' + cls + '" data-idx="' + i + '" href="#' + manifest[i] + '">' + manifest[i].slice(5) + '</a>';
+  }
+  h += '</div></div>';
+
+  APP.innerHTML = h;
+
+  document.getElementById('prev').onclick = () => loadDate(currentIdx - 1);
+  document.getElementById('next').onclick = () => loadDate(currentIdx + 1);
+  document.querySelectorAll('.archive-item').forEach(el => {
+    el.onclick = e => { e.preventDefault(); loadDate(+el.dataset.idx); };
+  });
+}
+
+// Hash navigation
+window.addEventListener('hashchange', () => {
+  const hash = location.hash.replace('#', '');
+  const idx = manifest.indexOf(hash);
+  if (idx >= 0 && idx !== currentIdx) loadDate(idx);
+});
+
+// Swipe support
+let sx = 0;
+document.addEventListener('touchstart', e => { sx = e.touches[0].clientX; });
+document.addEventListener('touchend', e => {
+  const dx = e.changedTouches[0].clientX - sx;
+  if (Math.abs(dx) > 60) loadDate(currentIdx + (dx > 0 ? -1 : 1));
+});
+
+// Keyboard
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowLeft') loadDate(currentIdx - 1);
+  if (e.key === 'ArrowRight') loadDate(currentIdx + 1);
+});
+
+init();
+</script>
 </body>
 </html>
