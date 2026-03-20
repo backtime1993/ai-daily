@@ -1,0 +1,141 @@
+{
+  "date": "2026-03-20",
+  "date_display": "2026年3月20日 · 星期五",
+  "stats": [
+    {
+      "num": 13,
+      "label": "新闻条目"
+    },
+    {
+      "num": 5,
+      "label": "话题板块"
+    }
+  ],
+  "sections": [
+    {
+      "accent": "#ef5350",
+      "bg": "#fce4ec",
+      "color": "#c62828",
+      "tag": "重磅动态",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#fce4ec",
+          "text": "xAI 发布 Grok 4.20：采用四智能体架构，支持独立代理分析、辩论与协作，性能大幅提升。 —",
+          "url": "https://x.com/elonmusk/status/2034728804263018502"
+        },
+        {
+          "icon": "⚡",
+          "icon_bg": "#fce4ec",
+          "text": "Anthropic 对 OpenCode 采取法律行动：涉及 GitHub 上的代码库争议。 —",
+          "url": "https://github.com/anomalyco/opencode/pull/18186"
+        },
+        {
+          "icon": "🚀",
+          "icon_bg": "#fce4ec",
+          "text": "macOS 26 破坏自定义 DNS 设置：新版本 macOS 26 导致包括 .internal 在内的自定义 DNS 设置失效，开发者已发布 Gist 记录此问题",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "accent": "#2196f3",
+      "bg": "#e3f2fd",
+      "color": "#1565c0",
+      "tag": "行业资讯",
+      "items": [
+        {
+          "icon": "💡",
+          "icon_bg": "#e3f2fd",
+          "text": "Tesla AI 主管 Ashok Elluswamy 强调人形机器人与自动驾驶在 AI 方法论上的基本一致性。 —",
+          "url": "https://x.com/elonmusk/status/2034711839096152235"
+        },
+        {
+          "icon": "🧠",
+          "icon_bg": "#e3f2fd",
+          "text": "转发 Jensen Huang 关于轨道数据中心的采访：冷却挑战是核心难题。 —",
+          "url": "https://x.com/elonmusk/status/2034712111977550168"
+        },
+        {
+          "icon": "📊",
+          "icon_bg": "#e3f2fd",
+          "text": "提醒用户尝试 Grok 4.20 Heavy 版本，体验更强推理。 —",
+          "url": "https://x.com/elonmusk/status/2034710771075273177"
+        }
+      ]
+    },
+    {
+      "accent": "#4caf50",
+      "bg": "#e8f5e9",
+      "color": "#2e7d32",
+      "tag": "技术前沿",
+      "items": [
+        {
+          "icon": "🔗",
+          "icon_bg": "#e8f5e9",
+          "text": "转发 Grok Imagine 生成图赞赏，展示视觉模型能力。 —",
+          "url": "https://x.com/elonmusk/status/2034739392955523363"
+        },
+        {
+          "icon": "🏢",
+          "icon_bg": "#e8f5e9",
+          "text": "确认 xAI 发展潜力巨大，持续推进 AI 基础设施。 —",
+          "url": "https://x.com/elonmusk/status/2034728607822831667"
+        },
+        {
+          "icon": "📈",
+          "icon_bg": "#e8f5e9",
+          "text": "转发关于“半场革命即是坟墓”的政治/社会评论。 —",
+          "url": "https://x.com/elonmusk/status/2034731135646015797"
+        }
+      ]
+    },
+    {
+      "accent": "#ff9800",
+      "bg": "#fff3e0",
+      "color": "#e65100",
+      "tag": "生态动态",
+      "items": [
+        {
+          "icon": "🔧",
+          "icon_bg": "#fff3e0",
+          "text": "adamamyl - macOS 26 网络配置异常报告：详细记录了 macOS 26 如何干扰自定义 DNS 及内网域名解析，建议受影响用户关注后续修复",
+          "url": "https://gist.github.com/adamamyl/81b78eced40feae50eae7c4f3bec1f5a"
+        },
+        {
+          "icon": "💻",
+          "icon_bg": "#fff3e0",
+          "text": "KittenML - 发布三个全新 Kitten TTS 模型：开源了三个新的文本转语音模型，体积最小的不到 25MB，展现了轻量化语音合成的进步",
+          "url": "https://github.com/KittenML/KittenTTS"
+        },
+        {
+          "icon": "🌐",
+          "icon_bg": "#fff3e0",
+          "text": "OpenTTD - Steam 与 GOG 平台变更更新：OpenTTD 分享了关于在 Steam 和 GOG 平台上进行的最新调整与改动",
+          "url": "https://www.openttd.org/news/2026/03/19/steam-changes-update"
+        }
+      ]
+    },
+    {
+      "accent": "#5c6bc0",
+      "bg": "#e8eaf6",
+      "color": "#283593",
+      "tag": "深度解读",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#e8eaf6",
+          "text": "Astral 团队加入 OpenAI",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "ClawFeed",
+    "GitHub",
+    "X / Twitter",
+    "其他网站"
+  ],
+  "updated_at": "07:08"
+}
