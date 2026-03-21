@@ -1,0 +1,126 @@
+{
+  "date": "2026-03-21",
+  "date_display": "2026年3月21日 · 星期六",
+  "stats": [
+    {
+      "num": 12,
+      "label": "新闻条目"
+    },
+    {
+      "num": 4,
+      "label": "话题板块"
+    }
+  ],
+  "sections": [
+    {
+      "accent": "#ef5350",
+      "bg": "#fce4ec",
+      "color": "#c62828",
+      "tag": "重磅动态",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#fce4ec",
+          "text": "微软发布 Windows 质量承诺 — 针对 Windows Insider 项目更新，强调对系统稳定性的持续投入",
+          "url": "https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/)"
+        },
+        {
+          "icon": "⚡",
+          "icon_bg": "#fce4ec",
+          "text": "OpenCode 开源 AI 编程智能体发布 — 专注于开源生态的 AI 编码助手现已上线",
+          "url": "https://opencode.ai/)"
+        },
+        {
+          "icon": "🚀",
+          "icon_bg": "#fce4ec",
+          "text": "本时段暂无重大 AI 突破或大额融资新闻",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "accent": "#2196f3",
+      "bg": "#e3f2fd",
+      "color": "#1565c0",
+      "tag": "行业资讯",
+      "items": [
+        {
+          "icon": "💡",
+          "icon_bg": "#e3f2fd",
+          "text": "转发 wintonARK 关于空间计算的分析：3吨卫星、100kW算力，制造仅需400万美元",
+          "url": "https://x.com/elonmusk/status/2035104128343724414)"
+        },
+        {
+          "icon": "🧠",
+          "icon_bg": "#e3f2fd",
+          "text": "推荐使用 Grok 应用中的 Chibi 模板对照片进行 Q 版化处理",
+          "url": "https://x.com/elonmusk/status/2035101980818092409)"
+        },
+        {
+          "icon": "📊",
+          "icon_bg": "#e3f2fd",
+          "text": "转发 Babylon Bee 关于“像婴儿一样喝加奶冷咖啡”的幽默推文",
+          "url": "https://x.com/elonmusk/status/2035078203229053179)"
+        }
+      ]
+    },
+    {
+      "accent": "#4caf50",
+      "bg": "#e8f5e9",
+      "color": "#2e7d32",
+      "tag": "技术前沿",
+      "items": [
+        {
+          "icon": "🔗",
+          "icon_bg": "#e8f5e9",
+          "text": "分享关于 FCC 文件的幽默回复讨论",
+          "url": "https://x.com/elonmusk/status/2035101918612304129)"
+        },
+        {
+          "icon": "🏢",
+          "icon_bg": "#e8f5e9",
+          "text": "互动回应（😂）。 [原文",
+          "url": "https://x.com/elonmusk/status/2035054938674655466)"
+        },
+        {
+          "icon": "📈",
+          "icon_bg": "#e8f5e9",
+          "text": "转发 Tesla Owners Silicon Valley：Grok 是 iPhone 上最重要的资源",
+          "url": "https://x.com/elonmusk/status/2034982760247697431"
+        }
+      ]
+    },
+    {
+      "accent": "#ff9800",
+      "bg": "#fff3e0",
+      "color": "#e65100",
+      "tag": "生态动态",
+      "items": [
+        {
+          "icon": "🔧",
+          "icon_bg": "#fff3e0",
+          "text": "转发 Tesla 销量喜报：Tesla 在英国 BEV 销量超越福特，成为季度最畅销品牌",
+          "url": "https://x.com/elonmusk/status/2034968879034978402"
+        },
+        {
+          "icon": "💻",
+          "icon_bg": "#fff3e0",
+          "text": "转发 Katie Miller：Grok 是唯一优化为真理寻求且带幽默感的 AI",
+          "url": "https://x.com/elonmusk/status/2034974156098609175"
+        },
+        {
+          "icon": "🌐",
+          "icon_bg": "#fff3e0",
+          "text": "讨论：\"我愿意被时代抛弃，谢谢\"。博主分享关于拒绝被现代过度连接技术裹挟的思考",
+          "url": "https://shkspr.mobi/blog/2026/03/im-ok-being-left-behind-thanks/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "ClawFeed",
+    "X / Twitter",
+    "其他网站"
+  ],
+  "updated_at": "07:08"
+}
