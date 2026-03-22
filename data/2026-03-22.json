@@ -1,0 +1,126 @@
+{
+  "date": "2026-03-22",
+  "date_display": "2026年3月22日 · 星期日",
+  "stats": [
+    {
+      "num": 12,
+      "label": "新闻条目"
+    },
+    {
+      "num": 4,
+      "label": "话题板块"
+    }
+  ],
+  "sections": [
+    {
+      "accent": "#ef5350",
+      "bg": "#fce4ec",
+      "color": "#c62828",
+      "tag": "重磅动态",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#fce4ec",
+          "text": "SpaceX TERAFAB 计划曝光 — 与 Tesla 和 xAI 合作构建全球最大的芯片制造基地，旨在推动星际文明建设",
+          "url": ""
+        },
+        {
+          "icon": "⚡",
+          "icon_bg": "#fce4ec",
+          "text": "轨道数据中心盈利点 — 新研究指出绿色圆圈区域为轨道数据中心开始盈利的关键轨道位置",
+          "url": ""
+        },
+        {
+          "icon": "🚀",
+          "icon_bg": "#fce4ec",
+          "text": "Elon Musk 宣布 Terafab 项目 —— 旨在每年增加一万亿瓦（1 Terawatt）的计算能力，规模相当于美国整个电力市场的两倍，被其称为“拼图的最后一块”",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "accent": "#2196f3",
+      "bg": "#e3f2fd",
+      "color": "#1565c0",
+      "tag": "行业资讯",
+      "items": [
+        {
+          "icon": "💡",
+          "icon_bg": "#e3f2fd",
+          "text": "快速递归改进 (Rapid recursive improvement)，暗示 AI 或工程能力的指数级增长",
+          "url": "https://x.com/elonmusk/status/2035568009062867209"
+        },
+        {
+          "icon": "🧠",
+          "icon_bg": "#e3f2fd",
+          "text": "提议在月球上建造质量投射器 (Mass drivers on the Moon!)",
+          "url": "https://x.com/elonmusk/status/2035572007983563217"
+        },
+        {
+          "icon": "📊",
+          "icon_bg": "#e3f2fd",
+          "text": "转发关于 Tesla、SpaceX 和 xAI 共同构建未来丰饶社会的愿景",
+          "url": "https://x.com/elonmusk/status/2035582779581432275"
+        }
+      ]
+    },
+    {
+      "accent": "#4caf50",
+      "bg": "#e8f5e9",
+      "color": "#2e7d32",
+      "tag": "技术前沿",
+      "items": [
+        {
+          "icon": "🔗",
+          "icon_bg": "#e8f5e9",
+          "text": "转发 SpaceX 官推：TERAFAB 是迈向银河文明的下一步",
+          "url": "https://x.com/elonmusk/status/2035555149612191881"
+        },
+        {
+          "icon": "🏢",
+          "icon_bg": "#e8f5e9",
+          "text": "转发 xAI 官推：探索宇宙以理解宇宙，强调 xAI 的核心使命",
+          "url": "https://x.com/elonmusk/status/2035566899082436756"
+        },
+        {
+          "icon": "📈",
+          "icon_bg": "#e8f5e9",
+          "text": "转发关于西方文化削弱及其潜在风险的社会评论",
+          "url": "https://x.com/elonmusk/status/2035584893368054267"
+        }
+      ]
+    },
+    {
+      "accent": "#ff9800",
+      "bg": "#fff3e0",
+      "color": "#e65100",
+      "tag": "生态动态",
+      "items": [
+        {
+          "icon": "🔧",
+          "icon_bg": "#fff3e0",
+          "text": "转发关于人类最伟大事业加速启动的电影感瞬间",
+          "url": "https://x.com/elonmusk/status/2035588281371627811"
+        },
+        {
+          "icon": "💻",
+          "icon_bg": "#fff3e0",
+          "text": "转发 FutureJurvetson 关于月球质量投射器（Mass Driver）的期待，称其将极其壮观",
+          "url": "https://x.com/elonmusk/status/2035539980815380707"
+        },
+        {
+          "icon": "🌐",
+          "icon_bg": "#fff3e0",
+          "text": "转发首个 AI 卫星概念图，配备 100kw 规模的太阳能电池板和散热器",
+          "url": "https://x.com/elonmusk/status/2035538882134237530"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "ClawFeed",
+    "X / Twitter",
+    "其他网站"
+  ],
+  "updated_at": "15:08"
+}
