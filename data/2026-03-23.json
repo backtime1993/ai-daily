@@ -1,0 +1,141 @@
+{
+  "date": "2026-03-23",
+  "date_display": "2026年3月23日 · 星期一",
+  "stats": [
+    {
+      "num": 13,
+      "label": "新闻条目"
+    },
+    {
+      "num": 5,
+      "label": "话题板块"
+    }
+  ],
+  "sections": [
+    {
+      "accent": "#ef5350",
+      "bg": "#fce4ec",
+      "color": "#c62828",
+      "tag": "重磅动态",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#fce4ec",
+          "text": "提及 Anthropic：马斯克简短提到 AI 公司 Anthropic",
+          "url": ""
+        },
+        {
+          "icon": "⚡",
+          "icon_bg": "#fce4ec",
+          "text": "马斯克谈论选举透明度：强调照片 ID 对防止选举欺诈的重要性",
+          "url": ""
+        },
+        {
+          "icon": "🚀",
+          "icon_bg": "#fce4ec",
+          "text": "Grok 将引入 \"Connectors\" 功能 — 支持集成 PayPal、Stripe、GitHub、Slack、AWS 等服务，进一步扩展 AI 的实用性",
+          "url": "https://x.com/elonmusk/status/2035745575782756368)"
+        }
+      ]
+    },
+    {
+      "accent": "#2196f3",
+      "bg": "#e3f2fd",
+      "color": "#1565c0",
+      "tag": "行业资讯",
+      "items": [
+        {
+          "icon": "💡",
+          "icon_bg": "#e3f2fd",
+          "text": "对当前某些社会/政治现状表示震惊（“This is insane”）",
+          "url": "https://x.com/elonmusk/status/2035799508215603283"
+        },
+        {
+          "icon": "🧠",
+          "icon_bg": "#e3f2fd",
+          "text": "发布单词 “Anthropic”，引发对其与该公司关系的关注",
+          "url": "https://x.com/elonmusk/status/2035828088433713613"
+        },
+        {
+          "icon": "📊",
+          "icon_bg": "#e3f2fd",
+          "text": "转发关于法官职责的评论，认为释放暴力罪犯的法官应被弹劾",
+          "url": "https://x.com/elonmusk/status/2035844524053041561"
+        }
+      ]
+    },
+    {
+      "accent": "#4caf50",
+      "bg": "#e8f5e9",
+      "color": "#2e7d32",
+      "tag": "技术前沿",
+      "items": [
+        {
+          "icon": "🔗",
+          "icon_bg": "#e8f5e9",
+          "text": "转发关于联邦制重要性的推文，认为各州是美国的“逃生舱”",
+          "url": "https://x.com/elonmusk/status/2035798877702693170"
+        },
+        {
+          "icon": "🏢",
+          "icon_bg": "#e8f5e9",
+          "text": "讨论选举诚信，主张必须使用照片 ID",
+          "url": "https://x.com/elonmusk/status/2035823114479931739"
+        },
+        {
+          "icon": "📈",
+          "icon_bg": "#e8f5e9",
+          "text": "转发 SpaceX 相关推文",
+          "url": "https://x.com/elonmusk/status/2035818986819211574"
+        }
+      ]
+    },
+    {
+      "accent": "#ff9800",
+      "bg": "#fff3e0",
+      "color": "#e65100",
+      "tag": "生态动态",
+      "items": [
+        {
+          "icon": "🔧",
+          "icon_bg": "#fff3e0",
+          "text": "批评法官释放暴力罪犯的行为",
+          "url": "https://x.com/elonmusk/status/2035822362999058474"
+        },
+        {
+          "icon": "💻",
+          "icon_bg": "#fff3e0",
+          "text": "版本控制的未来：Bram Cohen 讨论 Manyana 项目及其对版本控制系统的改进",
+          "url": "https://bramcohen.com/p/manyana)"
+        },
+        {
+          "icon": "🌐",
+          "icon_bg": "#fff3e0",
+          "text": "转发 Cybertruck 在奥斯卡 Terafab 活动中利用激光束指向太空的震撼现场",
+          "url": "https://x.com/elonmusk/status/2035748211575726275)"
+        }
+      ]
+    },
+    {
+      "accent": "#5c6bc0",
+      "bg": "#e8eaf6",
+      "color": "#283593",
+      "tag": "深度解读",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#e8eaf6",
+          "text": "Flash-Moe: 消费级 Mac 的大模型突破",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "ClawFeed",
+    "GitHub",
+    "X / Twitter",
+    "其他网站"
+  ],
+  "updated_at": "07:08"
+}
