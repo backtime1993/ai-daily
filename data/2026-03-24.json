@@ -1,0 +1,139 @@
+{
+  "date": "2026-03-24",
+  "date_display": "2026年3月24日 · 星期二",
+  "stats": [
+    {
+      "num": 13,
+      "label": "新闻条目"
+    },
+    {
+      "num": 5,
+      "label": "话题板块"
+    }
+  ],
+  "sections": [
+    {
+      "accent": "#ef5350",
+      "bg": "#fce4ec",
+      "color": "#c62828",
+      "tag": "重磅动态",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#fce4ec",
+          "text": "马斯克发布 Grok 最新进展 — Grok 移动端应用持续更新，生成模型能力每周都在提升",
+          "url": ""
+        },
+        {
+          "icon": "⚡",
+          "icon_bg": "#fce4ec",
+          "text": "特斯拉 Semi 重大进展 — Jay Leno 发布 47 分钟深度视频，与 Tesla 工程师 Dan Priestley 详细拆解全新设计的 Semi 卡车",
+          "url": ""
+        },
+        {
+          "icon": "🚀",
+          "icon_bg": "#fce4ec",
+          "text": "Elon Musk 发布 Terafab 演示详情 — 宣布 SpaceX/xAI/Tesla Terafab 计划，称其为“文明级”重大突破",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "accent": "#2196f3",
+      "bg": "#e3f2fd",
+      "color": "#1565c0",
+      "tag": "行业资讯",
+      "items": [
+        {
+          "icon": "💡",
+          "icon_bg": "#e3f2fd",
+          "text": "转发 NASA 署长推文：NASA 正在领导人类历史上最伟大的冒险，周二将公布后续计划：",
+          "url": "https://x.com/elonmusk/status/2036161276548673952"
+        },
+        {
+          "icon": "🧠",
+          "icon_bg": "#e3f2fd",
+          "text": "Grok Imagine 图像生成功能每周都在变强，建议下载最新版 Grok App：",
+          "url": "https://x.com/elonmusk/status/2036162268891685242"
+        },
+        {
+          "icon": "📊",
+          "icon_bg": "#e3f2fd",
+          "text": "简单回复 \"Grok\"，保持对 AI 产品的关注热度：",
+          "url": "https://x.com/elonmusk/status/2036168078178853344"
+        }
+      ]
+    },
+    {
+      "accent": "#4caf50",
+      "bg": "#e8f5e9",
+      "color": "#2e7d32",
+      "tag": "技术前沿",
+      "items": [
+        {
+          "icon": "🔗",
+          "icon_bg": "#e8f5e9",
+          "text": "对发射/拍摄画面表示赞赏 \"Good shot\"：",
+          "url": "https://x.com/elonmusk/status/2036168534892376252"
+        },
+        {
+          "icon": "🏢",
+          "icon_bg": "#e8f5e9",
+          "text": "FSD 体验差异显著，已成为特斯拉车主与非车主之间最大的生活方式区别",
+          "url": "https://x.com/elonmusk/status/2036156722692366830"
+        },
+        {
+          "icon": "📈",
+          "icon_bg": "#e8f5e9",
+          "text": "特斯拉 Semi 重新设计细节公开，包含 47 分钟深度评测视频",
+          "url": "https://x.com/elonmusk/status/2036156324078391442"
+        }
+      ]
+    },
+    {
+      "accent": "#ff9800",
+      "bg": "#fff3e0",
+      "color": "#e65100",
+      "tag": "生态动态",
+      "items": [
+        {
+          "icon": "🔧",
+          "icon_bg": "#fff3e0",
+          "text": "学术界理性与理性思维遭到排斥，证据被政治化现象引发关注",
+          "url": "https://x.com/elonmusk/status/2036157326231740439"
+        },
+        {
+          "icon": "💻",
+          "icon_bg": "#fff3e0",
+          "text": "简短评论“不公正”(Injustice)",
+          "url": "https://x.com/elonmusk/status/2036156918067241381"
+        },
+        {
+          "icon": "🌐",
+          "icon_bg": "#fff3e0",
+          "text": "转发 yacineMTB：前 Twitter 工程师评价 Elon 收购后对代码库和设计文档的深度理解",
+          "url": "https://x.com/elonmusk/status/2036037681868874218"
+        }
+      ]
+    },
+    {
+      "accent": "#5c6bc0",
+      "bg": "#e8eaf6",
+      "color": "#283593",
+      "tag": "深度解读",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#e8eaf6",
+          "text": "Elon Musk 的 Terafab 愿景",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "ClawFeed",
+    "X / Twitter"
+  ],
+  "updated_at": "07:08"
+}
