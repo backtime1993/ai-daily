@@ -1,0 +1,127 @@
+{
+  "date": "2026-03-25",
+  "date_display": "2026年3月25日 · 星期二",
+  "stats": [
+    {
+      "num": 12,
+      "label": "新闻条目"
+    },
+    {
+      "num": 4,
+      "label": "话题板块"
+    }
+  ],
+  "sections": [
+    {
+      "accent": "#ef5350",
+      "bg": "#fce4ec",
+      "color": "#c62828",
+      "tag": "重磅动态",
+      "items": [
+        {
+          "icon": "🔥",
+          "icon_bg": "#fce4ec",
+          "text": "LiteLLM Python 库遭供应链攻击 — GitHub 已发布相关安全警示，涉及恶意代码注入",
+          "url": "https://github.com/BerriAI/litellm/issues/24512"
+        },
+        {
+          "icon": "⚡",
+          "icon_bg": "#fce4ec",
+          "text": "OpenAI Pre-IPO 文件泄露 — 泄密文件显示 OpenAI 已明确将合作伙伴微软视为业务风险，并正积极寻求业务多元化以降低依赖",
+          "url": ""
+        },
+        {
+          "icon": "🚀",
+          "icon_bg": "#fce4ec",
+          "text": "目前暂无重大突破性新闻",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "accent": "#2196f3",
+      "bg": "#e3f2fd",
+      "color": "#1565c0",
+      "tag": "行业资讯",
+      "items": [
+        {
+          "icon": "💡",
+          "icon_bg": "#e3f2fd",
+          "text": "Windows 11 的“修复”计划引发争议 — HackerNews 热议文章指责微软在 Windows 11 上的改进计划是在“煤气灯操纵”用户",
+          "url": "https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/"
+        },
+        {
+          "icon": "🧠",
+          "icon_bg": "#e3f2fd",
+          "text": "NVIDIA CEO 黄仁勋访谈 — @elonmusk 转发了 Lex Fridman 对黄仁勋的最新访谈，探讨 NVIDIA 的影响力",
+          "url": "https://x.com/elonmusk/status/2036426388392255527"
+        },
+        {
+          "icon": "📊",
+          "icon_bg": "#e3f2fd",
+          "text": "Tesla Cybertruck 获得最高安全评级 — 被评为 2026 年唯一获得顶级安全奖项的皮卡车型",
+          "url": "https://x.com/elonmusk/status/2036410453342167295"
+        }
+      ]
+    },
+    {
+      "accent": "#4caf50",
+      "bg": "#e8f5e9",
+      "color": "#2e7d32",
+      "tag": "技术前沿",
+      "items": [
+        {
+          "icon": "🔗",
+          "icon_bg": "#e8f5e9",
+          "text": "萨尔瓦多旅游业变迁 — 从只有冲浪者到如今圣萨尔瓦多市中心的繁荣",
+          "url": "https://x.com/elonmusk/status/2036410139553702367"
+        },
+        {
+          "icon": "🏢",
+          "icon_bg": "#e8f5e9",
+          "text": "国会调查加州安宁疗养欺诈案 — 涉及数百万美元税收损失",
+          "url": "https://x.com/elonmusk/status/2036411022609924489"
+        },
+        {
+          "icon": "📈",
+          "icon_bg": "#e8f5e9",
+          "text": "2026年 X 创作者收益完全指南，深度解析 Stripe 认证流程、Wise 港币账户配置及 W-8BEN 税务表格填写细节，助力创作者顺利领取“马斯克发的工资”",
+          "url": "https://x.com/AI_Jasonyu/status/2022954721548661130"
+        }
+      ]
+    },
+    {
+      "accent": "#ff9800",
+      "bg": "#fff3e0",
+      "color": "#e65100",
+      "tag": "生态动态",
+      "items": [
+        {
+          "icon": "🔧",
+          "icon_bg": "#fff3e0",
+          "text": "言论自由争议：Michael Shellenberger 指出全球言论自由正处于危险边缘，并认为马斯克的 X 平台是目前维持这一权力的关键环节",
+          "url": "https://x.com/elonmusk/status/2036302599235010901"
+        },
+        {
+          "icon": "💻",
+          "icon_bg": "#fff3e0",
+          "text": "特斯拉 Semi 转型意义：统计显示重型卡车虽仅占路面车辆 1%，却消耗了 16-18% 的燃料，Semi 电动化将对节能减排产生巨大杠杆效应",
+          "url": "https://x.com/elonmusk/status/2036300504301731934"
+        },
+        {
+          "icon": "🌐",
+          "icon_bg": "#fff3e0",
+          "text": "Grok 视觉生成进化：用户展示通过 Grok Imagine 生成的 Chibi 版马斯克及喷火器视频，AI 视频生成能力持续提升",
+          "url": "https://x.com/elonmusk/status/2036320409159868711"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "ClawFeed",
+    "GitHub",
+    "X / Twitter",
+    "其他网站"
+  ],
+  "updated_at": "23:08"
+}
